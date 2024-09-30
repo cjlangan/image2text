@@ -1,6 +1,12 @@
 # Screenshot to Text
 
-Run the command, take a screenshot, and the text will be in your clipboard
+Run the command 'image2text' to take a selective screenshot, then the text will be in your clipboard
+
+## Dependencies
+
+- bash
+- gnome-screenshot
+- tesseract
 
 ## Installation
 
@@ -10,3 +16,6 @@ chmod +x install.sh
 ```
 
 
+## Notes
+
+This uses `gnome-screenshot`, however you can easily modify it to use whatever screenshot tool works best for your distrobution.
